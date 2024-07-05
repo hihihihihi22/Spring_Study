@@ -1,0 +1,12 @@
+package com.example.boot02.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HomeController {
+
+	public String hello() {
+		
+		return "Nice to meet you!";
+	}
+}

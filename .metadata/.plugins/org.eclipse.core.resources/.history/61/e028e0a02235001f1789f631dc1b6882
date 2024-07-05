@@ -1,0 +1,23 @@
+package com.example.boot01.service;
+
+public class HomeServiceImpl implements HomeService{
+
+	@Override
+	public void clean(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void wash(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void hole(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.example.boot01.service1;
+
+public interface Drill {
+	public void hole();
+}

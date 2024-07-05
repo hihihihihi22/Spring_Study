@@ -1,0 +1,9 @@
+package com.example.boot05.Dao;
+
+import java.util.List;
+
+import com.example.boot05.Dto.MemberDto;
+
+public interface MemberDao {
+	public List<MemberDto> selectAll();
+}

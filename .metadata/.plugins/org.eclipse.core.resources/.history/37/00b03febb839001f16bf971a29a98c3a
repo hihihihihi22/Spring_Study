@@ -1,0 +1,15 @@
+package com.example.boot05.Dao;
+
+import java.util.List;
+import org.springframework.stereotype.Repository;
+import com.example.boot05.Dto.MemberDto;
+
+@Repository
+public class MemberDaoImpl implements MemberDao{
+
+	@Override
+	public List<MemberDto> getList() {
+		return null;
+	}
+
+}

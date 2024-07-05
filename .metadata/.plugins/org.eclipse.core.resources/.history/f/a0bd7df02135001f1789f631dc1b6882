@@ -1,0 +1,10 @@
+package com.example.boot01.service;
+
+public class DrillImpl implements Drill{
+
+	@Override
+	public void hole() {
+		System.out.println("윙~~~");
+	}
+
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>templates/todo/list.html</title>
+</head>
+<body>
+	<div class="container">
+		<h1>*** 할일목록 ***</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>번호</th>
+					<th>날짜</th>
+					<th>할일</th>
+					<th>삭제</th>
+					<th>수정</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each = "tmp:${list}">
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

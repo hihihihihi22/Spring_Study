@@ -1,0 +1,19 @@
+package com.example.boot07.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+
+@Controller
+public class FileController {
+
+	@GetMapping("/file/uploadform")
+	public String uploadForm() {
+		return "file/uploadform";
+	}
+	
+	@PostMapping("/file/upload")
+	public String upload(String title, String myFile) {
+		return "file/upload";
+	}
+}

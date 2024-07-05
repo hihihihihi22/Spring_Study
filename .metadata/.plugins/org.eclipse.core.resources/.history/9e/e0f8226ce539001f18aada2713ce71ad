@@ -1,0 +1,9 @@
+package com.example.boot05.tododto;
+
+public class TodoDto {
+
+	private int num;
+	private String regdate;
+	private String todo;
+	
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>templates/member/updateform.jsp</title>
+</head>
+<body>
+	<div class="container">
+		<h1>회원정보수정</h1>
+		
+		<form action="@{/member/update}" method="post">
+			<input type="text" name="name" value=${}/>
+			<input type="text" name="addr" value=/>
+			<button type="submit">수정</button>
+		</form>
+	</div>
+</body>
+</html>

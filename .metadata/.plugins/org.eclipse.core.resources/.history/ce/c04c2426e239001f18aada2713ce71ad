@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>templates/todo/list.html</title>
+</head>
+<body>
+	<div class="container">
+		<h1>*** 할일목록 ***</h1>
+		<table>
+			<thead>
+				<tr>
+					<th>날짜</th>
+					<th>할일</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</body>
+</html>

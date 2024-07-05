@@ -1,0 +1,10 @@
+package com.example.boot06.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+//설정과 관련된 bean
+@Configuration
+public class WebConfig implements WebMvcConfigurer{
+
+}
