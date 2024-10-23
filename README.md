@@ -38,14 +38,8 @@
 ## 📌 설치 및 실행 방법
 
 ```bash
-# 프로젝트 클론
-git clone https://github.com/your-repo-url.git
+1. **Eclipse IDE**를 실행합니다.
+2. `File > Import > Maven > Existing Maven Projects`를 선택하여 프로젝트를 불러옵니다.
+3. 프로젝트를 마우스 오른쪽 클릭하고, **Run As > Spring Boot App**을 선택하여 실행합니다.
+4. 애플리케이션이 실행되면, 브라우저에서 `http://localhost:8080`으로 접속하여 확인할 수 있습니다.
 
-# 프로젝트 디렉토리로 이동
-cd project-folder
-
-# 패키지 설치
-./mvnw install
-
-# Spring Boot 애플리케이션 실행
-./mvnw spring-boot:run
