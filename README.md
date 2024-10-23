@@ -37,7 +37,6 @@
 
 ## 📌 설치 및 실행 방법
 
-```bash
 1. **Eclipse IDE**를 실행합니다.
 2. `File > Import > Maven > Existing Maven Projects`를 선택하여 프로젝트를 불러옵니다.
 3. 프로젝트를 마우스 오른쪽 클릭하고, **Run As > Spring Boot App**을 선택하여 실행합니다.
